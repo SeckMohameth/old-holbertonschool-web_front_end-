@@ -153,9 +153,9 @@ a:active{
     --nav-item-font-family: --font-family-title;
     --nav-item-font-weight: --font-weight-bold;
     --nav-item-font-size: --font-size-medium;
-    /* --nav-item-letter-spacing:  */
+    --nav-item-letter-spacing: 0.04rem;
     -nav-item-display: inline-block;
-    /* --nav-item-margin: */
+    --nav-item-margin: 0rem 0rem 3rem 0rem;
     --nav-item-link-hover: --color-primary;
 }
 
