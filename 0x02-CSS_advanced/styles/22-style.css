@@ -164,7 +164,7 @@ ul .footer{
 
 section[ data-section-theme=“dark”]{
   background: var(--color-black);
-
+  --button-color: var(--color-white);
 }
 
 .footer-address{
@@ -200,8 +200,6 @@ section[ data-section-theme=“dark”]{
 [ data-section-theme=“dark”]{
   background-color: var(--color-black);
 
-  --text-color: color-white;
-  --section-title-color: color-white;
 
 }
 
@@ -261,6 +259,11 @@ section[ data-section-theme=“dark”]{
     --button-hover-color: color-white;
     --button-hover-text-decoration: none;
     --button-hover-background: --color-primary; 
+
+  
+  
+    --text-color: color-white;
+    --section-title-color: color-white;
 
   }
 
