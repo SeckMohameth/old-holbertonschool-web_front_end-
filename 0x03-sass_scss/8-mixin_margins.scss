@@ -1,14 +1,14 @@
 /* magin mixin */
 
-@mixin marginmix($px){
+@mixin marginmix($px) {
        margin-left: $px;
        margin-right: $px;
 }
 
 body {
-     @include maginmix(10px);
+     @include marginmix(10px);
 }
 
 div {
-     @include maginmix(15px);
+    @include marginmix(15px);
 }
