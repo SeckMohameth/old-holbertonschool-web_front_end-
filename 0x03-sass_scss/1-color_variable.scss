@@ -1,9 +1,11 @@
 /* assigns the text color #3D3D3D to the HTML tags body and p */
 
-$color: #3D3D3D
+$mycolor: #3D3D3D;
 
 body {
-  color: $color; }
+  color: $mycolor;
+}
 
 p {
-  color: $color; }
+  color: $mycolor;
+}
