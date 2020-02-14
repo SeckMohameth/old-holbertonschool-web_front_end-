@@ -1,0 +1,7 @@
+/* for each loop */
+
+@import 11-photos
+
+@each $item in $list-names
+      .photo-#{$item}
+      background: image-url("photos/#{$item}.png") no-repeat
