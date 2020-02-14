@@ -1,6 +1,6 @@
-/* loop headers */
+/* loop headers creating h1 to h5 with font size*/
 
-@for $i from 1 through 5
+@for $i from 1 through 5 {
      h#{$1}{
 	font-size: #{$i}px;
 	}
