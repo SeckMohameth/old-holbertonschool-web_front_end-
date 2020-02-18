@@ -218,7 +218,7 @@
     display: flex;
   }
   
-  .nav .nav-item + .nav-item {
+  .nav-item + .nav-item {
     margin: var(--nav-item-margin);
 
   }
@@ -283,7 +283,7 @@
   .header-container {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
   }
   
   /* Footer
