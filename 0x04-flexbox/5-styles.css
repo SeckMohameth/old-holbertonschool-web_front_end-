@@ -1,3 +1,4 @@
+
 /* SUMMARY
     1. GLOBAL
     2. LAYOUT
@@ -61,12 +62,12 @@
   
     /** HEADER **/
     --header-padding: 4rem 0 0;
-    --header-logo-position: relative;
+    /* --header-logo-position: relative;
     --header-logo-link-display: inline-block;
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
-  
+   */
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
   
@@ -205,9 +206,9 @@
   /* Navbar
       ============================= */
   
-  .navbar-menu {
+  /* .navbar-menu {
     float: right;
-  }
+  } */
   
   .nav {
     margin: 0;
@@ -261,7 +262,7 @@
          z-index: 3;
          background: transparent !important;
   }
-  
+/*   
   .header-logo {
     position: var(--header-logo-position);
   }
@@ -271,6 +272,12 @@
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
     left: var(--header-logo-link-left);
+  } */
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+
   }
   
   /* Footer
