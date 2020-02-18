@@ -376,7 +376,7 @@
   /* Section BLOG
    ============================= */
 
-  .section-blog > .row {
+  .section-blog .row {
     flex-direction: row-reverse;
 }
   
