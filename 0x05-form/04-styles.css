@@ -694,3 +694,30 @@ ul.row {
       padding: 0 0 .5rem;
       white-space: nowrap;
     }
+
+
+
+
+    input[type=text][type=email][type=textarea]{
+      position: relative;
+      width: 100%;
+      padding: 1.2rem;
+      line-height: 1;
+      border: .1rem solid var(--color-black);
+      background-color: var(--color-white);
+      box-shadow: none;
+      outline: 0;
+    }
+    
+    input[type=text][type=email]{
+      padding-right: 3rem;
+    }
+
+    input:focus[type=text][type=email][type=textarea]{
+      border: .1rem var(--color-grey);
+    }
+
+    ::placeholder {
+      font-style: italic;
+      font-size: var(--font-size-small);
+    }
