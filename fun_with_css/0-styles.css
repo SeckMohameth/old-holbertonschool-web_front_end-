@@ -1,0 +1,45 @@
+
+ul{
+    list-style: none;
+    display: flex;
+    height: 500px;  
+    padding: 29px;
+    justify-content: center;
+ }
+
+ li{
+    background-color: whitesmoke;
+    background-size: 500 0;
+    height: 500px;
+    width: 300px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding-top: 25px;
+    margin: 30px;
+ }
+
+
+li:first-child{
+    background-image: url(0-sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0% 60%;
+
+}
+
+li:not(:first-child):not(:last-child) {
+    background-image: url(0-sprite.png);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+  
+}
+
+li:last-child{
+    background-image: url(0-sprite.png);
+    background-repeat: no-repeat;
+    background-position: 100% 60%;
+
+}
+
