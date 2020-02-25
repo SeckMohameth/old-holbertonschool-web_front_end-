@@ -1,0 +1,25 @@
+a{
+    color: #a50000;
+    text-decoration: none;
+    position: relative;
+
+}
+
+
+a::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2.3px;
+    bottom: 0;
+    left: 0;
+    background-color: #a50000;
+    visibility: hidden;
+    transition: all .4s ease-in-out;
+
+}
+
+a:hover::before{
+    visibility: visible;
+    width: 100%;
+}
