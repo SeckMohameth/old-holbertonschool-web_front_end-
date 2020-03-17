@@ -1,0 +1,295 @@
+/*
+HERO BANNER
+ABOUT
+RESULTS
+CONTACT
+*/
+
+
+
+
+
+/* Variables
+  ============================= */
+:root{
+    --color-red: red;
+    --color-white: #ffffff; 
+    --color-black: #000000;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+
+/* HERO BANNER SECTION 
+============================= */
+
+.banner{
+    background-image: url(/images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+    color: var(--color-white);
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: -10px;
+    padding: 5px;
+}
+
+.logo-banner{
+    padding-top: 25px;
+
+}
+
+.navbar {
+    display: flex;
+    padding-top: 25px;
+}
+
+.navbar a{
+    padding: 20px;;
+}
+
+.hero-text{
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hero-text p{
+    padding-top: 50px;
+    width: 600px;
+    text-align: center;
+
+}
+
+.button{
+    padding: 1.5em;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    border-radius: 2em;
+    cursor: pointer;
+    width: 15em;
+    border: var(--color-black);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: none;
+
+}
+
+.button:hover, .button:active{
+    opacity: 0.9;
+}
+
+a:hover{
+    color: #FF6565;
+}
+
+
+a {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+
+
+/* ABOUT  SECTION 
+============================= */
+.what-we-do{
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-text{
+    width: 50%;
+    text-align: center;
+}
+
+.about-text h1{
+    margin: 50px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    justify-content: space-around;
+
+}
+
+.icons p{
+    width: 150px;
+}
+
+div[class*="col"]{
+    padding: 50px;
+}
+
+
+/* RESULTS SECTION 
+============================= */
+
+.results{
+    background-image: url(/images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: var(--color-white);
+}
+
+
+.results .result-text{
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.results .result-text p{
+    width: 40%;
+}
+
+.results .pentagon{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.result-text, .pentagon{
+    padding-top: 80px;
+}
+
+.pentagon{
+    position: relative;
+}
+
+.res {
+    position: relative;
+    height: 50%;
+    margin-top: 30px;
+    left: -200px;
+    font-size: 1.3rem;
+    white-space: nowrap;
+
+}
+.res p{
+    margin-top: -10px;
+    font-size: medium;
+    display: inline-block;
+    left: -900px;
+
+
+}
+
+
+/* CONTACT  
+=====================*/
+
+.contact{
+    color: var(--color-black);
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    margin-top: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 20px;
+    width: 400px;
+}
+
+label, input {
+    display: block;
+
+}
+
+label {
+    margin-top: 25px;
+    /* margin-bottom: 25px; */
+
+    font-weight: bold;
+    font-size: medium;
+}
+
+.btn-submit{
+    padding: 1.5em;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    border-radius: 2em;
+    cursor: pointer;
+    width: 15em;
+    border: var(--color-black);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: none;
+    font-size: medium;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+    input[type=text] {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #000000;
+    }
+
+/* FOOTER  
+=====================*/
+.footer{
+    display: flex;
+    background-color: rgb(10, 10, 75);
+    bottom: 0;
+    width: 100%;
+    padding-top: 2.5rem;
+    justify-content: center;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.footer p {
+    color: var(--color-white);
+}
+
+/* Responsive  
+=====================*/
+
+/* Tablet */
+@media (max-width: 767px){
+
+}
+
+/* mobile */
+@media  (max-width: 480px){
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+    }
+
+     .banner{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
