@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login to the website</h1>
+    <input type="" id="firstname" placeholder="Firstname">
+    <input type="text" id="email" placeholder="Email">
+    <button onclick="setCookies(firstname, value)">Log me in</button>
+
+    <h1>Cookies</h1>
+    <button onclick="showCookies()">Show the cookies</button>
+
+    <script>
+        function setCookies(name, value){             
+    let firstnameValue = $('#firstname').val();
+    let emailValue = $('#email').val();
+
+        document.cookie = "firstname=" + firstnameValue, "expires=Thu, 23 April 2020 12:00:00 UTC";                                     
+        document.cookie = "email=" + emailValue, "expires=Thu, 23 April 2020 12:00:00 UTC";                                       
+    }                                                                      
+                                                                           
+function showCookies(){        
+    let firstnameValue = $('#firstname').val();
+    let emailValue = $('#email').val();
+                                        
+    $("body").append("<p>Cooklies: </p>" + firstnameValue + " " + emailValue);   
+}
+    </script>
+
+<script type="text/javascript" src="./index.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+
+</body>
+</html>
